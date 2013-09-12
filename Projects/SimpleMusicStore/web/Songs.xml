@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<Webmusic>
+    <song>
+        <song_id>01_01</song_id>
+        <song_name>Downtown</song_name>
+        <in_album>01</in_album>
+        <Price>2.03</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_02</song_id>
+        <song_name>On My Way Downtown</song_name>
+        <in_album>01</in_album>
+        <Price>2.06</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_03</song_id>
+        <song_name>Women and Work</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_04</song_id>
+        <song_name>It May Be Too Late</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_05</song_id>
+        <song_name>Juniper</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_06</song_id>
+        <song_name>Who You Waiting on?</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_07</song_id>
+        <song_name>I Can't Stand to Leave You</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_08</song_id>
+        <song_name>When I was Young</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_09</song_id>
+        <song_name>Sometimes</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_10</song_id>
+        <song_name>Like Lightning</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero Fogles</Artist>
+    </song>
+    <song>
+        <song_id>01_11</song_id>
+        <song_name>Go Easy</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+    <song>
+        <song_id>01_12</song_id>
+        <song_name>I Want your Love</song_name>
+        <in_album>01</in_album>
+        <Price>2</Price>
+        <Artist>Lucero</Artist>
+    </song>
+        
+    <song>
+        <song_id>02_01</song_id>
+        <song_name>White Flag</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_02</song_id>
+        <song_name>How Long</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_03</song_id>
+        <song_name>Mine To Love</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_04</song_id>
+        <song_name>Heaven Help Me</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_05</song_id>
+        <song_name>Love Will Be Enough For Us</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_06</song_id>
+        <song_name>Seventeen</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_07</song_id>
+        <song_name>Missing You</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_08</song_id>
+        <song_name>Find Your Way Home</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_09</song_id>
+        <song_name>Stories To Tell</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>02_10</song_id>
+        <song_name>Warm Heart In A Cold World</song_name>
+        <in_album>02</in_album>
+        <Price>2</Price>
+         <Artist>Dave Barnes</Artist>
+    </song>
+    <song>
+        <song_id>03_01</song_id>
+        <song_name>Wonderful</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_02</song_id>
+        <song_name>Peel Me A Grape</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_03</song_id>
+        <song_name>Pick Yourself Up</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_04</song_id>
+        <song_name>Frim Fram Sauce</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_05</song_id>
+        <song_name>You Go To My Head</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_06</song_id>
+        <song_name>Let's Fall In Love</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_07</song_id>
+        <song_name>The Look Of Love</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_08</song_id>
+        <song_name>East Of The Sun</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_09</song_id>
+        <song_name>I've Got You Under My Skin</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Diana Krall</Artist>
+    </song>
+    <song>
+        <song_id>03_10</song_id>
+        <song_name>Only The Lovely</song_name>
+        <in_album>03</in_album>
+        <Price>2</Price>
+        <Artist>Giana Crall</Artist>
+    </song>
+    <song>
+        <song_id>04_01</song_id>
+        <song_name>I Like It Featuring Pitbull</song_name>
+        <in_album>04</in_album>
+        <Price>2</Price>
+        <Artist>Enrique Iglesias</Artist>
+    </song>
+
+    <song>
+        <song_id>05_01</song_id>
+        <song_name>You Da One</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_02</song_id>
+        <song_name>Where Have You Been</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_03</song_id>
+        <song_name>We Found Love Featuring Calvin Harris</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_04</song_id>
+        <song_name>Talk That Talk Featuring JAY Z</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_05</song_id>
+        <song_name>Cockiness</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_06</song_id>
+        <song_name>Birthday Cake</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_07</song_id>
+        <song_name>We All Want Love</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_08</song_id>
+        <song_name>Drunk On Love</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_09</song_id>
+        <song_name>Drunk On Love</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+    <song>
+        <song_id>05_10</song_id>
+        <song_name>Roc Me Out</song_name>
+        <in_album>05</in_album>
+        <Price>2</Price>
+         <Artist>Rihanna</Artist>
+    </song>
+     
+
+</Webmusic>
