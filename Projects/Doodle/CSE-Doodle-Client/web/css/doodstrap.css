@@ -1,0 +1,563 @@
+/* former doodle.css styles */
+
+.dTable {
+	margin-bottom: 52px;
+}
+
+.dTable td {
+	background-color: #EDF4FE;
+	padding: 6px;
+}
+
+.dTable th {
+	vertical-align: text-top;
+	font-weight: bold;
+	padding: 6px;
+}
+
+.dTable tr {
+	font-size: 15px;
+	height: 35px;
+	vertical-align: center;
+}
+
+.dTable.zebra tbody tr:nth-child(2n) td {
+	background-color: transparent;
+}
+
+ul.dList li {
+	padding: 6px;
+}
+
+ul.dList li {
+	font-size: 15px;
+	vertical-align: center;
+}
+
+ul.dList li:hover {
+	background-color: #dbe9f9;
+}
+
+
+a.dIcon.delete {
+	background: url("../../graphics/common/doodlesprite.png") no-repeat
+		scroll -176px -27px transparent;
+	width: 16px;
+	height: 16px;
+	float: right;
+}
+
+a.dIcon.delete.inactive {
+	background: url("../../graphics/common/doodlesprite.png") no-repeat
+		scroll -208px -27px transparent;
+	cursor: default;
+}
+
+form.dForm label {
+	display: block;
+	padding-top: 22px;
+	padding-bottom: 6px;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+form.dForm label.error {
+	display: block;
+	background: #FFDDDB;
+	color: #CF6661;
+	padding: 10px;
+	margin: 10px 0;
+	font-size: 12px;
+}
+
+form.dForm .buttons {
+	padding-top: 35px;
+	padding-bottom: 22px;
+}
+
+form.dForm label span {
+	margin-left: 5px;
+	color: #6F6F6F;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+form.dForm input[type=text],form.dForm textarea {
+	width: 350px;
+}
+
+form.dForm input[type=text].s {
+	width: 100px;
+}
+
+.dAction, button.dAction, select.dAction, textarea.dAction, input.dAction {
+	height: 30px;
+	padding: 0 12px;
+	margin-right: 8px;
+	cursor: pointer;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 14px;
+	border: 1px solid #0055bb;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	width: auto; 
+	overflow: visible;
+}
+
+.dAction:hover {
+	background-image: none;
+}
+
+.dAction:active, button.dAction:active, select.dAction:active, textarea.dAction:active, input.dAction:active {
+	padding: 1px 11px 0 13px;
+}
+
+.dAction.disabled,.dAction.disabled:hover,.dAction.disabled:active,.dAction[disabled],.dAction[disabled]:hover,.dAction[disabled]:active, .ui-dialog-buttonpane .dAction.disabled,.ui-dialog-buttonpane .dAction.disabled:hover,.ui-dialog-buttonpane .dAction.disabled:active,.ui-dialog-buttonpane .dAction[disabled],.ui-dialog-buttonpane .dAction[disabled]:hover,.ui-dialog-buttonpane .dAction[disabled]:active
+	{
+	cursor: default;
+	background-image: none;
+	padding: 0 12px;
+	filter: progid:DXImageTransform.Microsoft.gradient(enabled=     false );
+	filter: alpha(opacity =         65);
+	-khtml-opacity: 0.65;
+	-moz-opacity: 0.65;
+	opacity: 0.65;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.dActionPrimary, button.dActionPrimary, select.dActionPrimary, textarea.dActionPrimary, input.dActionPrimary {
+	background-image: -moz-linear-gradient(top, #0066dd, #0055bb);
+	background-image: -ms-linear-gradient(top, #0066dd, #0055bb);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0066dd),
+		to(#0055bb) );
+	background-image: -webkit-linear-gradient(top, #0066dd, #0055bb);
+	background-image: -o-linear-gradient(top, #0066dd, #0055bb);
+	background-image: linear-gradient(top, #0066dd, #0055bb);
+	background-repeat: repeat-x;
+	background-color: #0066dd;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0066dd',
+		endColorstr='#0055bb', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+	border-color: #0055bb;
+	color: #ffffff;
+}
+
+.dActionPrimary:hover, button.dActionPrimary:hover, select.dActionPrimary:hover, textarea.dActionPrimary:hover, input.dActionPrimary:hover {
+	background-color: #0055bb;
+}
+
+.dActionPrimary:active, button.dActionPrimary:active, select.dActionPrimary:active, textarea.dActionPrimary:active, input.dActionPrimary:active {
+	background-image: -moz-linear-gradient(top, #0055bb, #0066dd);
+	background-image: -ms-linear-gradient(top, #0055bb, #0066dd);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0055bb),
+		to(#0066dd) );
+	background-image: -webkit-linear-gradient(top, #0055bb, #0066dd);
+	background-image: -o-linear-gradient(top, #0055bb, #0066dd);
+	background-image: linear-gradient(top, #0055bb, #0066dd);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0055bb',
+		endColorstr='#0066dd', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+}
+
+.dActionSecondary, button.dActionSecondary, select.dActionSecondary, textarea.dActionSecondary, input.dActionSecondary  {
+	background-image: -moz-linear-gradient(top, #eaeaea, #d6d6d6);
+	background-image: -ms-linear-gradient(top, #eaeaea, #d6d6d6);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eaeaea),
+		to(#d6d6d6) );
+	background-image: -webkit-linear-gradient(top, #eaeaea, #d6d6d6);
+	background-image: -o-linear-gradient(top, #eaeaea, #d6d6d6);
+	background-image: linear-gradient(top, #eaeaea, #d6d6d6);
+	background-repeat: repeat-x;
+	background-color: #eaeaea;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eaeaea',
+		endColorstr='#d6d6d6', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+	border-color: #d6d6d6;
+	color: #323232;
+}
+
+.dActionSecondary:hover, button.dActionSecondary:hover, select.dActionSecondary:hover, textarea.dActionSecondary:hover, input.dActionSecondary:hover {
+	background-color: #d6d6d6;
+}
+
+.dActionSecondary:active, button.dActionSecondary:active, select.dActionSecondary:active, textarea.dActionSecondary:active, input.dActionSecondary:active {
+	background-image: -moz-linear-gradient(top, #d6d6d6, #eaeaea);
+	background-image: -ms-linear-gradient(top, #d6d6d6, #eaeaea);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d6d6d6),
+		to(#eaeaea) );
+	background-image: -webkit-linear-gradient(top, #d6d6d6, #eaeaea);
+	background-image: -o-linear-gradient(top, #d6d6d6, #eaeaea);
+	background-image: linear-gradient(top, #d6d6d6, #eaeaea);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d6d6d6',
+		endColorstr='#eaeaea', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+}
+
+.dActionTertiary, button.dActionTertiary, select.dActionTertiary, textarea.dActionTertiary, input.dActionTertiary {
+	background-color: #ffffff;
+	border-color: #ffffff;
+	color: #0066dd;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none
+}
+
+.dActionTertiary:hover,.dActionTertiary:active, button.dActionTertiary:hover,button.dActionTertiary:active, select.dActionTertiary:hover,.selectdActionTertiary:active, textarea.dActionTertiary:hover,textarea.dActionTertiary:active, input.dActionTertiary:hover,input.dActionTertiary:active {
+	color: #0055bb;
+}
+
+.dActionDelete, button.dActionDelete, select.dActionDelete, textarea.dActionDelete, input.dActionDelete {
+	background-image: -moz-linear-gradient(top, #fe7670, #e36d63);
+	background-image: -ms-linear-gradient(top, #fe7670, #e36d63);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#fe7670),
+		to(#e36d63) );
+	background-image: -webkit-linear-gradient(top, #fe7670, #e36d63);
+	background-image: -o-linear-gradient(top, #fe7670, #e36d63);
+	background-image: linear-gradient(top, #fe7670, #e36d63);
+	background-repeat: repeat-x;
+	background-color: #fe7670;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fe7670',
+		endColorstr='#e36d63', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+	border-color: #e36d63;
+	color: #ffffff;
+}
+
+.dActionDelete:hover, button.dActionDelete:hover, select.dActionDelete:hover,textarea.dActionDelete:hover,input.dActionDelete:hover {
+	background-color: #e36d63;
+}
+
+.dActionDelete:active, button.dActionDelete:active, select.dActionDelete:active, textarea.dActionDelete:active, input.dActionDelete:active {
+	background-image: -moz-linear-gradient(top, #e36d63, #fe7670);
+	background-image: -ms-linear-gradient(top, #e36d63, #fe7670);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e36d63),
+		to(#fe7670) );
+	background-image: -webkit-linear-gradient(top, #e36d63, #fe7670);
+	background-image: -o-linear-gradient(top, #e36d63, #fe7670);
+	background-image: linear-gradient(top, #e36d63, #fe7670);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e36d63',
+		endColorstr='#fe7670', GradientType=0 );
+	filter: progid:dximagetransform.microsoft.gradient(enabled=false );
+}
+
+input.dInput {
+	width: 352px;
+	height: 22px;
+	padding: 3px 8px;
+	font-size: 15px;
+	color: #323232;
+	border: 1px solid #d6d6d6;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+textarea.dMultiInput {
+	width: 352px;
+	padding: 8px;
+	font-size: 15px;
+	color: #323232;
+	border: 1px solid #d6d6d6;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	resize: none;
+}
+
+.darkboxDialog .dMultiInput {
+	width: 237px;
+}
+
+.darkboxDialog #svcDescription.dMultiInput {
+	height: 100px;
+}
+
+select.dDropdown {
+	width: 370px;
+	height: 30px;
+	padding-left: 8px;
+	font-size: 15px;
+	color: #323232;
+	border: 1px solid #d6d6d6;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.dCheckbox {
+	cursor: pointer;
+	width: 250px;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 15px;
+}
+
+.dCheckbox>input {
+	cursor: pointer;
+	margin-right: 8px;
+}
+
+.dInputError, input.dInput.dInputError, .dMultiInputError,.dDropdownError {
+	color: #fe7670;
+	border-color: #fe7670;
+}
+
+input.dInput:focus,textarea.dMultiInput:focus,select.dDropdown:focus {
+	border-color: #6f6f6f;
+	outline: 0 none;
+}
+
+.dInputError:focus,.dMultiInputError:focus,.dDropdownError:focus {
+	border-color: #e36d63;
+	outline: 0 none;
+}
+			
+.dLabelError {
+	padding: 3px 0;
+	color: #FE7670;
+}
+
+.dInput.disabled,.dInputError.disabled,.dMultiInput.disabled,.dCheckbox.disabled,.dCheckbox.disabled>input,.dMultiInputError.disabled,.dDropdown.disabled,.dDropdownError.disabled,.dInput[disabled],.dInputError[disabled],.dMultiInput[disabled],.dMultiInputError[disabled],.dDropdown[disabled],.dDropdownError[disabled] {
+	cursor: default;
+	filter: alpha(opacity = 65);
+	-khtml-opacity: 0.65;
+	-moz-opacity: 0.65;
+	opacity: 0.65;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.dHighlight {
+	cursor: pointer;
+	height: 15px;
+	padding: 8px 8px 9px;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #323232;
+}
+
+.dHighlight:hover {
+	background-color: #dbe9f9;
+}
+
+.dTitleLarge {
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 27px;
+	color: #323232;
+}
+
+.dTitleMedium {
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 21px;
+	color: #323232;
+}
+
+.dTitleSmall {
+	font-size: 17px;
+	font-weight: normal;
+	line-height: 21px;
+	color: #323232;
+}
+
+.dTitleOrange {
+	color: #f88f07;
+}
+
+.dText {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 18px;
+	color: #323232;
+}
+
+.dTextGrey {
+	color: #6f6f6f;
+}
+
+.dTextSmall {
+	font-size: 12px;
+	line-height: 14px;
+	color: #6f6f6f;
+}
+
+.dLink {
+	font-size: 15px;
+	line-height: 18px;
+	color: #0066dd;
+	cursor: pointer;
+}
+
+.dLink:hover {
+	color: #0055bb;
+	text-decoration: none;
+}
+
+.dHorizontalLineDark {
+	border-bottom: 1px solid #666666;
+	margin: 3px 0;
+}
+
+.dHorizontalLineLight {
+	border-bottom: 1px solid #9c9c9c;
+	margin: 3px 0;
+}
+
+.dHorizontalLineThick {
+	border-bottom: 2px solid #666666;
+	margin: 3px 0;
+	padding-bottom: 5px;
+}
+
+.dNavPill {
+	color: #0066dd;
+	font-size: 18px;
+	list-style: none;
+}
+
+.dNavPill:before,.dNavPill:after {
+	display: block;
+	content: "";
+}
+
+.dNavPill:after {
+	clear: both;
+}
+
+.dNavPill>li {
+	float: left;
+}
+
+.dNavPill>li>a {
+	text-decoration: none;
+}
+
+.dNavPill>li>div {
+	padding: 0 12px;
+	color: #323232;
+}
+
+.dNavPill>li>a:hover {
+	color: #0055bb;
+}
+
+.dNavPill>.active>a,.dNavPill>.active>a:hover {
+	color: #323232;
+}
+
+/* former mydoodle.css styles */
+.dAction.alignToLeft {
+	float: left;
+}
+
+.dAction.dActionDelete.alignToRight {
+	float: right;
+}
+
+.dTable.dServicesTable {
+	width: 100%;
+	margin-bottom: 0;
+}
+
+.dTable.dServicesTable div {
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.dTable.dServicesTable tr:hover { /*cursor: pointer;*/
+	background-color: #dbe9f9;
+}
+
+.dCategory:hover {
+	cursor: move;
+	background-color: #dbe9f9;
+}
+
+.dCategory {
+	height: 21px;
+}
+
+.dCategory .categoryName {
+	float: left;
+}
+
+.category li,.dCategory {
+	position: relative;
+	cursor: pointer;
+}
+
+.dTable.dServicesTable div {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-o-text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.dServicesDragLists {
+	min-height: 10px;
+}
+
+.dServicesDragLists li:hover {
+	background-color: #dbe9f9;
+	cursor: move;
+}
+
+.dServicesDragLists div {
+	display: block;
+	float: left;
+	vertical-align: top;
+}
+
+.dTable td.indented {
+	padding-left: 20px;
+}
+
+.dTable .center {
+	text-align: center;
+}
+
+#formFields .dMultiInput {
+	vertical-align: top;
+}
+
+#formFields .dMultiInput,#formFields .dInput,#formFields .dDropdown {
+	margin-left: 5px;
+	float: left;
+}
+
+.serviceDialogBox .dInput {
+	width: 237px;
+}
+
+.serviceDialogBox .dDropdown {
+	width: 85px;
+}
+
+.serviceDialogBox #svcDurationUnit.dDropdown {
+	width: 110px;
+}
+
+.serviceDialogBox #svcCurrencySelect.dDropdown {
+	width: 65px;
+}
+
+.dCategory .icon.whiteEditIcon {
+	margin: 3px 13px 0 0;
+}
+
+.ui-sortable li:hover .icon.whiteEditIcon,.ui-sortable .dCategory:hover .icon.whiteEditIcon, #savedBookMeCompanyAddresses:hover .icon.whiteEditIcon
+	{
+	opacity: 1;
+	filter: alpha(opacity =   100);
+}
