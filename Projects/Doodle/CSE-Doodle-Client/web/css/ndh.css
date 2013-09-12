@@ -1,0 +1,295 @@
+/*
+ * Copyright (c) 2007-2008 Inturico Engineering GmbH
+ * Copyright (c) 2008-2010 Doodle AG
+ */
+
+.dTwoColumns > .dColumn, .dTwoColumns > .dLastColumn {
+	width: 48%;
+	float: left;
+}
+
+.dTwoColumns > .dColumn {
+	margin-right: 3%;
+}
+
+.dThreeColumns > .dColumn, .dThreeColumns > .dLastColumn {
+	width: 32%;
+	float: left;
+}
+
+.dThreeColumns > .dColumn {
+	margin-right: 2%;
+}
+
+
+
+/* Customized styles starts here */
+body {
+	overflow-x: hidden;
+}
+.ndhLargeSpaceAfter {
+	margin-bottom: 60px;
+}
+
+.ndhLargeSpaceBAfter {
+	margin-bottom: 50px;
+}
+
+.ndhDottedBorderAfter {
+	background: url("../../graphics/about/border-dotted.png") repeat-x 0 100% transparent;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+
+.ndhDottedBorderBefore {
+	background: url("../../graphics/about/border-dotted.png") repeat-x 0 0 transparent;
+	padding-top: 12px;
+	margin-top: 4px;
+}
+
+.ndhDThreeColumns > .dColumn, .ndhDThreeColumns > .dLastColumn {
+	width: 230px;
+}
+
+.ndhDThreeColumns > .dColumn {
+	margin-right: 38px;
+}
+
+.ndhHowItWorks {
+	margin-top: 40px;
+	margin-bottom: 8px;
+	padding-top: 23px;
+	padding-bottom: 30px;
+}
+
+#scheduleLink {
+	color: #000000;
+}
+
+.ndhTHowItWorksBullet {
+	background: url("../../graphics/about/homeSprite.png") no-repeat scroll -321px -114px transparent;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+	padding: 6px 0 0 1px;
+	margin-top: 2px;
+}
+
+.ndhTHowItWorksDTwoColumns > .dColumn {
+	width: 29px;
+	height: 24px;
+	margin: 4px 10px 0 0;
+}
+
+.ndhTHowItWorksDTwoColumns > .dLastColumn {
+	width: 196px;
+}
+
+#ndhTHowItWorksBanner {
+	background: url("../../graphics/about/homeSprite.png") no-repeat 0 0 transparent;
+	height: 114px;
+}
+
+#ndhTHowItWorksStep1Tag {
+	position: relative;
+	left: 180px;
+	top: 53px;
+}
+
+#ndhTHowItWorksStep3Tag {
+	position: relative;
+	left: 675px;
+	top: 36px;
+}
+
+.ndhPHowItWorksDTwoColumns > .dColumn {
+	width: 498px;
+	margin-right: 38px;
+}
+
+.ndhPHowItWorksDTwoColumns > .dLastColumn {
+	width: 230px
+}
+
+.ndhPHowItWorksDTwoColumns2 > .dColumn {
+	width: 29px;
+	height: 24px;
+	margin-right: 15px;
+}
+
+.ndhPHowItWorksDTwoColumns2 > .dLastColumn {
+	width: 185px;
+	height: 24px;
+}
+
+.ndhPHowItWorksVideoNormal {
+	width: 470px;
+	height: 271px;
+	background: url("../../graphics/home/pIndexVideo.png") no-repeat 0 0 transparent;
+}
+
+.ndhPHowItWorksVideoHover {
+	width: 470px;
+	height: 271px;
+	background: url("../../graphics/home/pIndexVideoHover.png") no-repeat 0 0 transparent;
+}
+
+.ndhPHowItWorksNone {
+	display: none;
+}
+
+.ndhWHowItWorksVideoNormal {
+	width: 470px;
+	height: 311px;
+	background: url("../../graphics/home/wIndexVideo.png") no-repeat 0 0 transparent;
+}
+
+.ndhWHowItWorksVideoHover {
+	width: 470px;
+	height: 311px;
+	background: url("../../graphics/home/wIndexVideoHover.png") no-repeat 0 0 transparent;
+}
+
+.ndhWHowItWorksNone {
+	display: none;
+}
+
+.nhdPremiumdDoodle {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	margin-bottom: 32px;
+}
+
+.ndhPremiumDoodleDTwoColumns > .dColumn {
+	background: url("../../graphics/common/iconLogos120.png") no-repeat scroll transparent;
+	background-position: 0 0;
+	width: 120px;
+	height: 120px;
+	margin-right: 40px;
+}
+
+.ndhPremiumDoodleDTwoColumns > .dLastColumn {
+	width: 606px;
+}
+
+.ndhPremiumDoodleSpaceAfter {
+	padding-bottom: 9px;
+}
+
+.ndhPremiumDoodleDescription {
+	width: 560px;
+}
+
+.nhdBookmeDoodle {
+	padding-top: 22px;
+	padding-bottom: 22px;
+	margin-bottom: 32px;
+}
+
+.ndhBookmeDoodleDTwoColumns > .dColumn {
+	background: url("../../graphics/bookme/bookmeSprite.png") no-repeat scroll transparent;
+	background-position: 0 -161px;
+	width: 120px;
+	height: 120px;
+	margin-right: 40px;
+}
+
+.ndhBookmeDoodleDTwoColumns > .dLastColumn {
+	width: 606px;
+}
+
+.ndhBookmeDoodleSpaceAfter {
+	padding-bottom: 9px;
+}
+
+.ndhBookmeDoodleDescription {
+	width: 560px;
+}
+
+.h2 sup {
+	top: -5px;
+  	color: #393;
+  	font-size: 10px;
+  	position: relative;
+  	vertical-align: super;
+  	text-transform: uppercase;
+}
+
+.ndhOtherFunctionsTitleSpaceAfter {
+	padding-bottom: 18px;
+}
+
+.ndhOtherFunctionsFloatIcon {
+	background: url("../../graphics/common/ndhLogos58.png") no-repeat scroll transparent;
+}
+
+.ndhOtherFunctionsDTwoColumns > .dColumn {
+	width: 58px;
+	height: 58px;
+	margin-right: 10px;
+}
+
+.ndhOtherFunctionsDTwoColumns > .dLastColumn {
+	width: 162px;
+}
+
+.ndhOtherFunctionsHack, .ndhOtherFunctionsHack .dTwoColumns {
+	width: 243px;
+	margin-right: 25px;
+}
+
+.ndhOtherFunctionsHack .ndhOtherFunctionsDTwoColumns .dLastColumn {
+	width: 200px;
+}
+
+.ndhOtherFunctionsHackRestore {
+	width: 230px;
+}
+
+#ndhCalendarFloatIcon {
+	background-position: 0px 0;
+}
+
+#ndhMeetMeFloatIcon {
+	background-position: -58px 0;
+}
+
+#ndhMyDoodleFloatIcon {
+	background-position: -116px 0;
+}
+
+.ndhBlogBuzzSocialMediaFloatIcon {
+	background: url("../../graphics/about/homeSprite.png") no-repeat scroll 0 -114px transparent;
+	margin-top: 2px;
+}
+
+.ndhBlogBuzzSocialMediaDTwoColumns > .dColumn {
+	width: 21px;
+	height: 21px;
+	margin-right: 15px;
+}
+
+.ndhBlogBuzzSocialMediaDTwoColumns > .dLastColumn {
+	width: 194px;
+}
+
+#ndhTwitterFloatIcon {
+	background-position: -457px -114px;
+}
+
+
+#ndhFacebookFloatIcon {
+	background-position: -373px -114px;
+}
+
+#ndhVimeoFloatIcon {
+	background-position: -415px -114px;
+}
+
+#ndhFacebookLike {
+	border: none; 
+	overflow: hidden; 
+	width: 230px; 
+	height: 20px;
+}
