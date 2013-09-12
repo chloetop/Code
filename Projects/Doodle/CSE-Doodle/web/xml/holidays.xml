@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="show.xsl"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<holidays xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+          xsi:noNamespaceSchemaLocation="http://localhost:8080/pubholservice/xml/holidays.xsd">
+
+    <holiday>
+        <state>nsw</state>
+        <name>New Year's Day</name>
+        <day>01-01-2012</day>
+    </holiday>
+    <holiday>
+        <state>nsw</state>
+        <name>Australia Day</name>
+        <day>26-01-2012</day>
+    </holiday>  
+    <holiday>
+        <state>nsw</state>
+        <name>Good Friday</name>
+        <day>06-04-2012</day>
+    </holiday>   
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Saturday</name>
+        <day>07-04-2012</day>
+    </holiday> 
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Sunday</name>
+        <day>08-04-2012</day>
+    </holiday>
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Monday</name>
+        <day>09-04-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Anzac Day</name>
+        <day>25-04-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Queen's Birthday</name>
+        <day>11-06-2012</day>
+    </holiday>  
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Bank Holiday</name>
+        <day>06-08-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Christmas Day</name>
+        <day>25-12-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Boxing Day</name>
+        <day>26-12-2012</day>
+    </holiday>
+    
+    
+    <holiday>
+        <state>nsw</state>
+        <name>New Year's Day</name>
+        <day>01-01-2013</day>
+    </holiday>
+    <holiday>
+        <state>nsw</state>
+        <name>Australia Day</name>
+        <day>28-01-2013</day>
+    </holiday>  
+    <holiday>
+        <state>nsw</state>
+        <name>Good Friday</name>
+        <day>29-03-2013</day>
+    </holiday>   
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Saturday</name>
+        <day>30-03-2013</day>
+    </holiday> 
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Sunday</name>
+        <day>31-03-2013</day>
+    </holiday>
+    <holiday>
+        <state>nsw</state>
+        <name>Easter Monday</name>
+        <day>01-04-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Anzac Day</name>
+        <day>25-04-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Queen's Birthday</name>
+        <day>10-06-2013</day>
+    </holiday>  
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Bank Holiday</name>
+        <day>05-08-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Christmas Day</name>
+        <day>25-12-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nsw</state>
+        <name>Boxing Day</name>
+        <day>26-12-2013</day>
+    </holiday>
+    
+	
+      <holiday>
+        <state>nt</state>
+        <name>New Year's Day</name>
+        <day>02-01-2012</day>
+    </holiday>
+    <holiday>
+        <state>nt</state>
+        <name>Australia Day</name>
+        <day>26-01-2012</day>
+    </holiday>  
+    <holiday>
+        <state>nt</state>
+        <name>Good Friday</name>
+        <day>06-04-2012</day>
+    </holiday>   
+    <holiday>
+        <state>nt</state>
+        <name>Easter Saturday</name>
+        <day>07-04-2012</day>
+    </holiday> 
+    <holiday>
+        <state>nt</state>
+        <name>Easter Monday</name>
+        <day>09-04-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Anzac Day</name>
+        <day>25-04-2012</day>
+    </holiday>
+	
+    <holiday>
+        <state>nt</state>
+        <name>May Day</name>
+        <day>07-05-2012</day>
+    </holiday>  
+	
+    <holiday>
+        <state>nt</state>
+        <name>Queen's Birthday</name>
+        <day>11-06-2012</day>
+    </holiday>  
+    
+    <holiday>
+        <state>nt</state>
+        <name>Picnic Day</name>
+        <day>06-08-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Christmas Day</name>
+        <day>25-12-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Boxing Day</name>
+        <day>26-12-2012</day>
+    </holiday>   
+   
+   
+      <holiday>
+        <state>nt</state>
+        <name>New Year's Day</name>
+        <day>01-01-2013</day>
+    </holiday>
+    <holiday>
+        <state>nt</state>
+        <name>Australia Day</name>
+        <day>28-01-2013</day>
+    </holiday>  
+    <holiday>
+        <state>nt</state>
+        <name>Good Friday</name>
+        <day>29-03-2013</day>
+    </holiday>   
+    <holiday>
+        <state>nt</state>
+        <name>Easter Saturday</name>
+        <day>30-03-2013</day>
+    </holiday> 
+
+    <holiday>
+        <state>nt</state>
+        <name>Easter Monday</name>
+        <day>01-04-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Anzac Day</name>
+        <day>25-04-2013</day>
+    </holiday>
+    <holiday>
+        <state>nt</state>
+        <name>May Day</name>
+        <day>06-05-2013</day>
+    </holiday>  
+    <holiday>
+        <state>nt</state>
+        <name>Queen's Birthday</name>
+        <day>10-06-2013</day>
+    </holiday>  
+    
+    <holiday>
+        <state>nt</state>
+        <name>Picnic Day</name>
+        <day>05-08-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Christmas Day</name>
+        <day>25-12-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>nt</state>
+        <name>Boxing Day</name>
+        <day>26-12-2013</day>
+    </holiday>
+   
+   
+   
+ <holiday>
+        <state>qld</state>
+        <name>New Year's Day</name>
+        <day>01-01-2012</day>
+    </holiday>
+    <holiday>
+        <state>qld</state>
+        <name>Australia Day</name>
+        <day>26-01-2012</day>
+    </holiday>  
+    <holiday>
+        <state>qld</state>
+        <name>Good Friday</name>
+        <day>06-04-2012</day>
+    </holiday>   
+    <holiday>
+        <state>qld</state>
+        <name>Easter Saturday</name>
+        <day>07-04-2012</day>
+    </holiday> 
+    <holiday>
+        <state>qld</state>
+        <name>Easter Monday</name>
+        <day>09-04-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Anzac Day</name>
+        <day>25-04-2012</day>
+    </holiday>
+	
+    <holiday>
+        <state>qld</state>
+        <name>Labour Day</name>
+        <day>07-05-2012</day>
+    </holiday>  
+	
+	    <holiday>
+        <state>qld</state>
+        <name>Queen's Diamond Jubilee</name>
+        <day>11-06-2012</day>
+    </holiday>  
+	
+    <holiday>
+        <state>qld</state>
+        <name>Queen's Birthday</name>
+        <day>01-10-2012</day>
+    </holiday>  
+    
+    <holiday>
+        <state>qld</state>
+        <name>Royal Queensland Show</name>
+        <day>15-08-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Christmas Day</name>
+        <day>25-12-2012</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Boxing Day</name>
+        <day>26-12-2012</day>
+    </holiday>   
+
+
+<holiday>
+        <state>qld</state>
+        <name>New Year's Day</name>
+        <day>01-01-2013</day>
+    </holiday>
+    <holiday>
+        <state>qld</state>
+        <name>Australia Day</name>
+        <day>28-01-2013</day>
+    </holiday>  
+    <holiday>
+        <state>qld</state>
+        <name>Good Friday</name>
+        <day>19-03-2013</day>
+    </holiday>   
+    <holiday>
+        <state>qld</state>
+        <name>Easter Saturday</name>
+        <day>30-03-2013</day>
+    </holiday> 
+    <holiday>
+        <state>qld</state>
+        <name>Easter Monday</name>
+        <day>09-04-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Anzac Day</name>
+        <day>25-04-2013</day>
+    </holiday>
+	
+    <holiday>
+        <state>qld</state>
+        <name>Labour Day</name>
+        <day>06-05-2013</day>
+    </holiday>  
+	
+	
+    <holiday>
+        <state>qld</state>
+        <name>Queen's Birthday</name>
+        <day>06-10-2013</day>
+    </holiday>  
+    
+    <holiday>
+        <state>qld</state>
+        <name>Royal Queensland Show</name>
+        <day>14-08-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Christmas Day</name>
+        <day>25-12-2013</day>
+    </holiday>
+    
+    <holiday>
+        <state>qld</state>
+        <name>Boxing Day</name>
+        <day>26-12-2013</day>
+    </holiday> 	
+    
+    <holiday>
+        <state>vic</state>
+        <name>NEW Year's Day</name>
+        <day>01-01-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Australia Day</name>
+        <day>26-01-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Labour Day</name>
+        <day>12-03-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Good Day</name>
+        <day>06-04-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>East Sunday Day</name>
+        <day>07-04-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Easter Monday Day</name>
+        <day>09-04-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>ANZAC Day</name>
+        <day>25-04-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Queen's Birthday</name>
+        <day>11-06-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Melbourne Cup Day</name>
+        <day>06-11-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Christmas Day</name>
+        <day>25-12-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Boxing Day</name>
+        <day>26-12-2012</day>
+    </holiday> 
+    
+        <holiday>
+        <state>vic</state>
+        <name>NEW Year's Day</name>
+        <day>01-01-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Australia Day</name>
+        <day>26-01-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Labour Day</name>
+        <day>11-03-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Good Day</name>
+        <day>29-03-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>East Sunday Day</name>
+        <day>30-03-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Easter Monday Day</name>
+        <day>01-04-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>ANZAC Day</name>
+        <day>25-04-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Queen's Birthday</name>
+        <day>10-06-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Melbourne Cup Day</name>
+        <day>05-11-2013</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Christmas Day</name>
+        <day>25-12-2012</day>
+    </holiday> 
+     <holiday>
+        <state>vic</state>
+        <name>Boxing Day</name>
+        <day>26-12-2012</day>
+    </holiday>
+</holidays>
+    
