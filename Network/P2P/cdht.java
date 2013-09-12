@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author yang yu z3342248
+ * @author y.y
  */
 public class cdht {
 
