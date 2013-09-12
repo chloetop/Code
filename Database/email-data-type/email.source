@@ -1,0 +1,161 @@
+
+CREATE FUNCTION email_in(cstring)
+   RETURNS EmailAddress
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_out(EmailAddress)
+   RETURNS cstring
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_recv(internal)
+   RETURNS EmailAddress
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_send(EmailAddress)
+   RETURNS bytea
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+   
+CREATE TYPE EmailAddress (
+   internallength = VARIABLE,
+   input = email_in,
+   output = email_out,
+   receive = email_recv,
+   send = email_send,
+   alignment = int4 
+);
+
+
+-- data for user-defined types are just strings in the proper textual
+-- representation.
+
+
+-- defination function
+CREATE FUNCTION email_eql(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_gt(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_domain_eql(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_not_eql(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_ge(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+   
+CREATE FUNCTION email_ls(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_le(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_domain_not_eql(EmailAddress, EmailAddress)
+   RETURNS bool
+   AS '_OBJWD_/email'
+   LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_abs_cmp(EmailAddress, EmailAddress) RETURNS int4
+   AS '_OBJWD_/email' LANGUAGE C IMMUTABLE STRICT;
+
+CREATE FUNCTION email_check(EmailAddress) RETURNS int4
+   AS '_OBJWD_/email' LANGUAGE C IMMUTABLE STRICT;
+                    
+-- defination operator  
+--  E1: local1 @ domain1    E2:local2 @ domain2  
+--   domain1 = domain2   local1 > local2     E1>E2    1
+--   domain1 = domain2   local1 = local2     E1=E2    2
+--   domain1 = domain2   local1 < local2     E1<E2    3
+--   domain1 > domain2   								   E1>E2    4
+--   domain1 < domain2   								   E1<E2    5
+
+CREATE OPERATOR = (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_eql,
+   commutator = =
+);
+
+CREATE OPERATOR > (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_gt,
+   commutator = >
+);
+CREATE OPERATOR ~ (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_domain_eql,
+   commutator = ~
+);
+
+CREATE OPERATOR <> (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_not_eql,
+   commutator = <>
+);
+
+CREATE OPERATOR >= (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_ge,
+   commutator = >=
+);
+
+CREATE OPERATOR < (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_ls,
+   commutator = <
+);
+
+CREATE OPERATOR <= (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_le,
+   commutator = <=
+);
+
+CREATE OPERATOR !~ (
+   leftarg = EmailAddress,
+   rightarg = EmailAddress,
+   procedure = email_domain_not_eql,
+   commutator = !~
+);
+
+CREATE OPERATOR CLASS email_ops
+    DEFAULT FOR TYPE EmailAddress USING btree AS
+        OPERATOR        1       < ,
+        OPERATOR        2       <= ,
+        OPERATOR        3       = ,
+        OPERATOR        4       >= ,
+        OPERATOR        5       > ,
+        FUNCTION        1       email_abs_cmp(EmailAddress, EmailAddress);
+
+CREATE OPERATOR CLASS email_ops 
+		DEFAULT FOR TYPE EmailAddress USING hash AS 
+				OPERATOR 1 = , 
+				FUNCTION 1 email_check(EmailAddress);
+
+
+
