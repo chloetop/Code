@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<Webmusic>
+    <album>
+        <album_id>01</album_id>
+        <Artist>Lucero</Artist>
+        <Title>Wome and Work</Title>
+        <Genre>Country</Genre>
+        <Year>2012</Year>
+        <Publisher>ATO Records</Publisher>
+        <Price>9</Price>
+        <Description>On this 2012 release, Lucero pick up where they left off, fully integrating the horn section of 2009's 1372 Overton Park. While the horns come off a bit clunky at times, the overall effect works, adding the right touch of Memphis-style soul and Sticky Fingers-era boogie rock to their punky alt country. Standout "It May Be Too Late" sounds like Van Morrison had he been born post-punk -- the understated honky-tonk piano and soulful horns lend the perfect air of emptiness. Other highlights include the rockin' "On My Way Downtown," the wistful "When I Was Young" and the gospel-tinged "Go Easy."</Description>
+    </album>
+    <album>
+        <album_id>02</album_id>
+        <Artist>Dave Barnes</Artist>
+        <Title>Stories To Tell</Title>
+        <Genre>Pop</Genre>
+        <Year>2012</Year>
+        <Publisher>Razor</Publisher>
+        <Price>15</Price>
+        <Description>On his fourth studio effort, Dave Barnes continues to straddle the line between pop and CCM, appealing to mainstream radio while letting Christian fans feel like he's all theirs. Recorded in Los Angeles with producer John Fields (Switchfoot, Jonas Brothers, Pink), this marks the first time Barnes has ventured outside Nashville to make a record, resulting in a decidedly slicker, synth sound. It's very electronic for a singer-songwriter, but it works for Barnes, who's always been a genre hopper. Don't miss "Mine to Love," an emotional ode to his first child, and the funky, fun "Heaven Help Me."</Description>
+    </album>
+    <album>
+        <album_id>03</album_id>
+        <Artist>Diana Krall</Artist>
+        <Title>The Very Best Of Diana Krall</Title>
+        <Genre>Jazz</Genre>
+        <Year>2007</Year>
+        <Publisher>Verve</Publisher>
+        <Price>13</Price>
+        <Description>Around the time a resurgent Tony Bennett was topping the charts, Verve got behind Diana Krall, who turned on the rock masses to their (grand)parents' music. Krall sings with feeling and she's a slinky pianist, but her greatest strength is in how she combines her talents to create something greater. Fans can debate whether these tracks really make up the "very best" of Krall, but they'll all want to hear the new tunes: the standard "You Go to My Head," a cover of Tom Waits' "The Heart of Saturday Night" and a very Sinatra-esque dive into the orchestral despair of Frank's "Only the Lonely." </Description>
+    </album>
+    <album>
+        <album_id>04</album_id>
+        <Artist>Enrique Iglesias</Artist>
+        <Title>I Like It</Title>
+        <Genre>Latin</Genre>
+        <Year>2010</Year>
+        <Publisher>Universal Lation</Publisher>
+        <Price>5</Price>
+        <Description>none </Description>
+    </album>    
+    <album>
+        <album_id>05</album_id>
+        <Artist>Rihanna</Artist>
+        <Title>Talk That Talk</Title>
+        <Genre>Soul</Genre>
+        <Year>2011</Year>
+        <Publisher>Def Jam Records</Publisher>
+        <Price>12</Price>
+        <Description>With love-drunk lyrics and throbbing club beats, much of Talk sounds like Rihanna recorded it while joyously spinning in circles. Don't worry: she's still a naughty girl, too -- more than ever. But in place of Loud's themes of strength in submission, Riri climbs on top this time, making demands, acting the aggressor, even requesting you suck her "Cockiness." Her "Red Lipstick" marks her claim on hip-hop masculinity, rather than on a man, but even her self-presentation as a "Birthday Cake" feels like a finger-snapping command. Talk is a sexy, confident play on notions of power. </Description>
+    </album>
+</Webmusic>
